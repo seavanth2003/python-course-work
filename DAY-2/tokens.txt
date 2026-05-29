@@ -1,0 +1,18 @@
+                                                                                    DAY-2
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tokens-smallest unit of a program is called tokens.
+in the tokens we have 5 types= Identifiers, literal, punctuators, keywords, operators....
+
+Statement's- single line of codes
+comments has 2 types =1) single line-#
+                       2) multiple line-'''
+
+Identifiers- uesd to identify as names . It respresented by variable calls, function calls...etc
+  >>variables are used to stored as container.It can be used by upper case,lower case letters and numbers(0-9),under score(_).And it starts                 
+     with uppercase, lowers case letters and under score.
+      1.contains=> A-Z,a-z, 0-9,_
+      2.starts with=>A-Z,a-z,_
+      3.can't Kw
+      4.case sensitive
+
+kweywords-It is the predifined words which is used in python. And we have 35 kw
