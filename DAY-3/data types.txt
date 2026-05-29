@@ -1,0 +1,65 @@
+                                                                                    DAY-3
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1). numeric dt
+---------------
+It has 3 types: int-0/9
+                float-decimal points
+                complex-real and imaginary values(2+4j)
+   
+             syntax:
+                 a=10
+                 type(a)
+                 (<class 'int'>)
+2).sequential dt
+-------------------
+ It has 3 types: str-collection of characters and closed b/w single and double quotations(''   ')
+                 list-it is a heterogeneous values, and it is in order, list is mutable datatype. and it is dynamic datatype.so here we can add/delete/modify..And it can be closed by square braces([])
+                 tuples-immutable and it can't be changed-()
+
+
+          syntax:- s='python'
+                   type(s)
+                   (<class 'str'>)
+
+                   1=list
+                   type(1)
+                  (<class 'list'>)
+
+3).mapping dt
+---------------
+It has 3 types: set-set is mutable and it is a unordered.it can be closed by {}
+                dict-unordered collection of key value pair. And it is mutable datatype-{}
+
+            syntax:-s={1,2,3,4}
+                    type(s)
+                   (<class 'set'>)
+ 
+                    u={"name":"pandu","age":22}
+                    type(u)
+                   (<class 'dict'>)
+
+4). Boolean dt
+--------------
+ It has 2 types: True
+                 False
+5).None dt
+-----------
+when ever we don't datatype name we represent it.
+
+
+
+TYPE CONVERTIONS
+-------------------
+It is used to convert one datatype into another datatype.
+
+int--> It can coverts into float, complex, str, bool 
+float-->int, complex, str, bool
+complex--> str,bool
+str-->int(digits),float(digits),complex(digits),list, tuple, bool
+list-->str, bool, tuple, set
+tuple-->str, list, set, bool 
+set-->str, list, tuple, bool 
+dict-->str, list, tuple, set
+bool-->int, float, str, complex
+                
